@@ -4,6 +4,7 @@ from numpy import linspace
 from itertools import groupby
 from functools import reduce
 
+# node scheme
 #{'m': {'f': None, 't': None, 'a': None}, 'w': {'f': None, 't': None, 'a': None}, 'c': {'f': None, 't': None, 'a': None}}
 class Table():
     def __init__(self, players, strats):
