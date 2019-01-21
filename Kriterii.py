@@ -195,6 +195,8 @@ class Table():
         return ''
 
 
+# Check branching
+
 tKP = Table(('p1', 'p2'), {'p1': ['v1', 'v2', 'v3', 'v4'], 'p2': ['v1', 'v2', 'v3', 'v4', 'v5']})
 tKP.setAllAtOnce([(1,4),
                   (2,1),
